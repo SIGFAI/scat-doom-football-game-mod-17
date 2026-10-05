@@ -1,0 +1,74 @@
+{
+  "id": "sigf/scat-doom-football-game-mod-17",
+  "version": "1.0.0",
+  "name": "SCAT, mod 17: Doom × Football Game",
+  "tagline": "Turn every game into Minecraft. This time, mix in Football Game with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "footballgame",
+      "role": "guest",
+      "label": "Football Game"
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "scat-doom-football-game-mod-17.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/scat-doom-football-game-mod-17/releases/download/v1.0.0/scat-doom-football-game-mod-17.pk3",
+          "sha256": "a12e4928a27ddb6acff1dc33c0bb3be6eaf3300c866ba8913fae4aa3d337d5c3",
+          "size": 13697481
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "scat-doom-football-game-mod-17.pk3",
+      "url": "https://github.com/SIGFAI/scat-doom-football-game-mod-17/releases/download/v1.0.0/scat-doom-football-game-mod-17.pk3",
+      "sha256": "a12e4928a27ddb6acff1dc33c0bb3be6eaf3300c866ba8913fae4aa3d337d5c3",
+      "size": 13697481
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/scat-doom-football-game-mod-17",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SCAT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:25:46.654Z"
+}
