@@ -1,0 +1,11 @@
+version "4.14"
+
+// SuperIntelligent Cat: Doom becomes a blocky football match against Grey Matter FC and its genius goalkeeper.
+#include "zscript/fx.zs"
+#include "zscript/ball.zs"
+#include "zscript/goal.zs"
+#include "zscript/mobs.zs"
+#include "zscript/zoo.zs"
+#include "zscript/cat.zs"
+#include "zscript/items.zs"
+#include "zscript/handler.zs"

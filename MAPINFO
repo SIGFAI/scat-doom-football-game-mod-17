@@ -1,0 +1,20 @@
+GameInfo
+{
+	AddEventHandlers = "SICHandler"
+}
+
+DoomEdNums
+{
+	23001 = SICGoal
+	23002 = SICCat
+	23003 = SICFan
+}
+
+map MAP01 "Grey Matter Arena"
+{
+	levelnum = 1
+	next = "MAP02"
+	sky1 = "SKY1", 0
+	music = "music/arena.ogg"
+	par = 120
+}

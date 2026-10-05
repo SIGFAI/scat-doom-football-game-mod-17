@@ -1,0 +1,2 @@
+// Test hook: "lineup" or "demo" runs that event once the map is running (console scripts run before the map loads).
+server noarchive string sic_autorun = "";

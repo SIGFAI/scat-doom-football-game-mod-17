@@ -1,0 +1,32 @@
+// SuperIntelligent Cat: sounds (see CREDITS.md)
+sic/kick      sounds/kick.ogg
+sic/bounce    sounds/bounce.ogg
+sic/ballhit   sounds/ballhit.ogg
+sic/whistle   sounds/whistle.ogg
+sic/whistle3  sounds/whistle3.ogg
+sic/goal      sounds/goal.ogg
+sic/crowd     sounds/crowd.ogg
+sic/boo       sounds/boo.ogg
+sic/firework  sounds/firework.ogg
+sic/poof      sounds/poof.ogg
+sic/xp        sounds/xp.ogg
+sic/mobhurt   sounds/mobhurt.ogg
+sic/mobdie    sounds/mobdie.ogg
+sic/mobsight  sounds/mobsight.ogg
+sic/pigsquee  sounds/pigsquee.ogg
+sic/meow      sounds/meow.ogg
+sic/cathurt   sounds/cathurt.ogg
+sic/catdie    sounds/catdie.ogg
+sic/tnt       sounds/tnt.ogg
+sic/cat1      sounds/cat_v1.ogg
+sic/cat2      sounds/cat_v2.ogg
+sic/cat3      sounds/cat_v3.ogg
+sic/cat4      sounds/cat_v4.ogg
+sic/cat5      sounds/cat_v5.ogg
+sic/cat6      sounds/cat_v6.ogg
+
+$pitchshift sic/mobhurt 4
+$pitchshift sic/bounce 3
+$pitchshift sic/kick 2
+$limit sic/bounce 3
+$limit sic/xp 4
